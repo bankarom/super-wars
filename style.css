@@ -1,0 +1,57 @@
+body{
+    border: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    margin-left : 80px;
+    font-size : 18px;
+  }
+
+.container{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    justify-content: center;
+    text-align: center; 
+
+}
+
+.Heroes{
+    display: flex;
+    gap: 20px;
+}
+
+.villain{
+    display: flex;
+    gap: 20px;
+}
+.spider{
+    border:2px solid grey;
+    border-radius: 2%;
+    
+}
+
+.captain{
+    border: 2px solid grey;
+    border-radius: 2%; 
+    
+}
+
+.gamora{
+    border: 2px solid grey;
+    border-radius: 2%;
+
+}
+
+.Thanos{
+    border: 2px solid grey;
+    border-radius: 2%;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+}
